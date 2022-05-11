@@ -1,0 +1,9 @@
+name: My Module
+type: module
+description: Custom module
+core_version_requirement: ^8 || ^9
+package: Other
+
+dependencies:
+  - search_api:search_api
+  - jsonapi_search_api:jsonapi_search_api

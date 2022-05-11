@@ -1,0 +1,5 @@
+services:
+  event_subscriber.meta_extras:
+    class: Drupal\my_module\EventSubscriber\AddMetaExtras
+    tags:
+      - { name: 'event_subscriber' }
